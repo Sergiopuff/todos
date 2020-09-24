@@ -1,0 +1,46 @@
+.todo-form {
+    width: 90%;
+    display: flex;
+    height: 50px;
+}
+.todo-form__btn {
+    width: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #8a8a8ae1;
+    background-color: rgb(170, 238, 170);
+    transition: ease 0.3s;
+    z-index: 3;
+}
+.todo-form__btn:hover {
+    background-color: rgb(116, 230, 116);
+    color: black;
+}
+.todo-form__input {
+    width: 90%;
+    padding: 0 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+
+.todo-form__input::placeholder {
+    font-style: italic;
+    color: #979797e1;
+}
+
+.hidden { 
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid #efefef; */
+    /* box-shadow: 0px 10px 20px 0px gainsboro; */
+    padding: 0 0 0 51.5px;
+    box-sizing: border-box;
+}
+
+.shown {
+    border: none;
+    box-shadow: none;
+}
+
+
